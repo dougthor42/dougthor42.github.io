@@ -1,7 +1,75 @@
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
 <h1>Hello World</h1>
 <p>I'm hosted with GitHub Pages.</p>
+TODO: Dynamically create this table from Travis/AppVeyor<br>
+<b>Project Builds</b>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>setup_ci_testing</th>
+      <th>wafer_map</th>
+      <th>PyBank</th>
+      <th>douglib</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Master</td>
+      <td>
+        <img src="https://travis-ci.org/dougthor42/ci_setup_testing.svg?branch=master"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/ci_setup_testing?branch=master&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/ci_setup_testing/badge.svg?branch=master">
+      </td>
+      <td>
+        <img src="https://travis-ci.org/dougthor42/wafer_map.svg?branch=master"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/wafer_map?branch=master&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/wafer_map/badge.svg?branch=master">
+      </td>
+      <td>
+        <img src="https://api.travis-ci.org/dougthor42/PyBank.svg?branch=master"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/PyBank?branch=master&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/PyBank/badge.svg?branch=master">
+      </td>
+      <td>
+        <img src="https://api.travis-ci.org/dougthor42/douglib.svg?branch=master"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/douglib?branch=master&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/douglib/badge.svg?branch=master">
+      </td>
+    </tr>
+    <tr>
+      <td>Branch</td>
+      <td>branch01</td>
+      <td>
+        <b>Py3</b><br>
+        <img src="https://travis-ci.org/dougthor42/wafer_map.svg?branch=Py3"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/wafer_map?branch=Py3&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/wafer_map/badge.svg?branch=Py3">
+      </td>
+      <td>branch01</td>
+      <td>
+        <b>py3</b><br>
+        <img src="https://api.travis-ci.org/dougthor42/douglib.svg?branch=py3"><br>
+        <img src="https://ci.appveyor.com/api/projects/status/github/dougthor42/douglib?branch=py3&svg=true"><br>
+        <img src="https://coveralls.io/repos/dougthor42/douglib/badge.svg?branch=py3">
+      </td>
+    </tr>
+    <tr>
+      <td>Branch</td>
+      <td>branch02</td>
+      <td>branch02</td>
+      <td>branch02</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
 </body>
 </html>
