@@ -91,6 +91,47 @@ Publications:
 
 
 
+*****
+Notes
+*****
+Various Things to Add to Resume
+Time 2006 Person of the Year (ha!)
+Metrology
+HEMTs - High electron mobility transport
+Schottky diodes
+Electroglas autoprober	x
+Designed company-wide LabVIEW test program for EG2001X autoprobers and smaller programs used by various departments: inspection tracking and maps, hydrometer monitoring, and Hg probe programs	x
+managed 7 on-wafer testing setups - maintenance, building, test scheduling, inventories	x
+high voltage transistors
+van der Pauw
+MySQL, Microsoft SQL	x
+Python	x
+Reduced test time from ~5hrs/wfr to 30min/wfr - 90% reduction (Reedholm)
+Created various utilities:
+KLA-Tencor Surfscan SFS 7600 plotter - Python	x
+Gross Die per Wafer Calculator - Python	x
+GDW brute-force for 1um offsets - C
+GDW Plotter and OWT Map Generator - Python	x
+DB Link (WIPTrac to Reedholm - Python	x
+Designed and implemented On-wafer hall testing for Epi feedback
+fab transfer
+tool purchasing and signoff
+Overseas travel for foundry transfer (Japan)
+People mgmt
+Contributed to Open-Source project	Spyder, restview, green	https://github.com/mgedmin/restview	https://github.com/CleanCut/green	https://code.google.com/p/spyderlib/issues/list
+Released and maintaining own open-source projects	wafer_map, GDWCalc	https://github.com/dougthor42/wafer_map	https://github.com/dougthor42/GDWCalc
+Design of Experiements
+FTI Tester
+Created API for wafer file parsing and analysis	owt
+Test Design
+Product qualification
+Relational Database Design (MySQL)
+LAMP stack
+Javascript
+NetSuite ERP
+Microwave Backhaul installation (IT)
+
+
 
 
 ************************
